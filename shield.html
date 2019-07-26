@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sword and Shield Hype Squad</title>
+
+  <!--AnimeLand -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--  FontsLand -->
+  <link href="htetps://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!--   Bootstrap here Yeet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--   LinkToCSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#">Sword and Shield Hype Squad!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html#about">About Us</a>
+        <a class="nav-item nav-link" href="index.html#video">E3 Video</a>
+        <a class="nav-item nav-link" href="index.html#Gigantamax">Gigantamaxing Pokemon</a>
+        <a class="nav-item nav-link" href="index.html#articles">Articles</a>
+        <a class="nav-item nav-link" href="index.html#facts">Battle Tactics</a>
+        <a class="nav-item nav-link" href="#gym-leaders">Gym Leaders</a>
+        <a class="nav-item nav-link" href="#starters">Starters</a>
+      </div>
+    </div>
+  </nav>
+<!-- Starting image -->  
+  <img class="w-100 p-2 bg-dark" id="gym-leaders" src="data:image/png;base64,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">
+
+  <div id="about" class="container-fluid text-center bg-dark text-light" >
+
+    <div class="py-3"></div>
+
+    <div class="row" id=>
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6"   
+  data-aos="fade-up"
+  data-aos-offset="200"
+  data-aos-delay="50"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in"
+  data-aos-mirror="false"
+  data-aos-once="true"
+  data-aos-anchor-placement="top-bottom">
+
+        <h1 class="font-weight-bold">Gym Leaders</h1>
+        <h5 class="">The Top trainers of Galar!</h5>
+        <h6 class="font-weight-normal">The Galar region will revert back to the normal system of gyms, featured since the launch of the epic saga! In order to challenge  the champion, you will have to earn a gym badge from all of the gym leaders throughout the region! Each gym leader specializes in a certain type of pokemon, and on defeat will reward a badge from their gym! Once you have gathered all 8 badges you will be able to challenge the pokemon league and champion, to become the new champion of the region!</h6>
+
+      </div>
+      
+    </div>
+    <div class="py-3"></div>
+  </div>
+<!-- Gym Leaders -->
+
+ <div id="Gigantamax" class="container-fluid p-3 bg-cyan">
+    <h1 class="font-weight-bold color-dark"> Gym Leaders </h1>
+   <h5 class="color-dark">As of now, There are 4 confirmed Gym Leaders</h5>
+    <div class="py-1 bg-dark"></div>   
+  <div class="py-3"></div>
+    
+  <div class="card-deck">
+    
+    <div class="card" data-aos="flip-left"
+  data-aos-offset="200"
+  data-aos-delay="50"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in"
+  data-aos-mirror="false"
+  data-aos-once="true"
+  data-aos-anchor-placement="top-bottom">
+      <img class="card-img p-1" src="https://swordshield.pokemon.com/assets/img/articles/people_leader_milo_hover.png">
+   <div class="card-body">
+     <h3 class="font-weight-bold">Milo</h3>
+     <h6 class="font-weight-normal">The Grass Type Gym Leader</h6>
+     
+     <div class="py-3">
+
+<button type="button" class="btn btn-cyan btn-block text-light" data-toggle="modal" data-target="#milo">More on Milo</button>
+ 
+     </div>
+   </div>
+    </div>
+        
+    <div class="card" data-aos="flip-left"
+  data-aos-offset="200"
+  data-aos-delay="250"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in"
+  data-aos-mirror="false"
+  data-aos-once="true"
+  data-aos-anchor-placement="top-bottom">
+      <img class="card-img p-1" src="https://swordshield.pokemon.com/assets/img/articles/people_leader_nessa_hover.png">
+   <div class="card-body">
+     <h3 class="font-weight-bold">Nessa</h3>
+     <h6 class="font-weight-normal">The Water Type Gym Leader</h6>
+     <div class="py-3">
+     </div>
+<button type="button" class="btn btn-cyan btn-block text-light" data-toggle="modal" data-target="#nessa">More on Nessa</button>
+      </div>
+    </div>
+        
+    <div class="card" data-aos="flip-left"
+  data-aos-offset="200"
+  data-aos-delay="450"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in"
+  data-aos-mirror="false"
+  data-aos-once="true"
+  data-aos-anchor-placement="top-bottom">
+      <img class="card-img p-1" src="https://swordshield.pokemon.com/assets/img/articles/people_leader_bea_hover.png">
+   <div class="card-body">
+     <h3 class="font-weight-bold">Bea</h3>
+     <h6 class="font-weight-normal">The Fighting Type Leader</h6>
+     <div class="py-3">
+     </div>
+<button type="button" class="btn btn-cyan btn-block text-light" data-toggle="modal" data-target="#boa">More on Bea</button>
+      </div>
+    </div>
+             
+    <div class="card" data-aos="flip-left"
+  data-aos-offset="200"
+  data-aos-delay="650"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in"
+  data-aos-mirror="false"
+  data-aos-once="true"
+  data-aos-anchor-placement="top-bottom">
+      <img class="card-img p-1" src="https://swordshield.pokemon.com/assets/img/articles/people_leader_allister_hover.png">
+   <div class="card-body">
+     <h3 class="font-weight-bold">Allister</h3>
+     <h6 class="font-weight-normal">The Ghost Type Gym Leader</h6>
+     <div class="py-3">
+     </div>
+<button type="button" class="btn btn-cyan btn-block text-light" data-toggle="modal" data-target="#allister">More on Allisters</button>
+      </div>
+    </div>
+    
+    </div>
+    </div>
+    
+<!-- Modals -->
+  
+  <div class="modal fade" id="milo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog bg-cyan" role="document">
+    <div class="modal-content by-cyan">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Milo's Pokemon">Milo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h6>
+          Milo is the Grass Type Gym leader of the Galar Region. His Main pokemon that is shown is an Eldegoss that he can dynamaxe-</h6>
+        <div class="row text-center">
+        <img class="" src="https://swordshield.pokemon.com/assets/img/articles/pokemon_galar_eldegoss_hover.png"> 
+        <img class="" src="https://swordshield.pokemon.com/assets/img/articles/people_leader_milo_hover.png">
+      </div>
+        <h6 class="py-2" >Eldegoss appears to be a flower of a cotton plant, and looks quite similar to a Jumpluff. Its a pure Grass type with the abilities of Cotton Down or Regenerator</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-cyan btn-block" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <div class="modal fade" id="nessa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Nessa</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <h6>
+          Nessa is the Water Type Gym leader of the Galar Region. Her Main pokemon that is shown is an Drednaw that she can dynamaxe-</h6>
+        <div class="row text-center">
+        <img class="" src="https://swordshield.pokemon.com/assets/img/articles/pokemon_galar_drednaw_hover.png"> 
+        <img class="" src="https://swordshield.pokemon.com/assets/img/articles/people_leader_nessa_hover.png">
+        </div>
+          <h6 class="py-2" >Drednaw is a Water/Rock type pokemon. It can have the abilities of Strong Jaw or Shell Armor. Visually it looks like a snapping turtle</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-cyan btn-block" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <div class="modal fade" id="boa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Bea</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <h6>
+          Bea is the Fighting Type Gym leader of the Galar Region. None of her team is known yet, but personally i expect she will have a Machamp</h6>
+        <img class="center" src="https://swordshield.pokemon.com/assets/img/articles/people_leader_bea_hover.png">
+        <h6 class="py-2" >Unlike in any previous games, Bea and Allister will have a "shared" gym, meaning that depending on which version you buy, you will fight a different leader</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-cyan btn-block" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <div class="modal fade" id="allister" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampldasfaseModalLabel">Allister</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <h6>
+          Allister is the Ghost Type Gym leader of the Galar Region. None of her Team is known yet but I expect she will have a Gengar.</h6>
+        <img class="center" src="https://swordshield.pokemon.com/assets/img/articles/people_leader_allister_hover.png">
+        <h6 class="py-2" >Unlike in any previous games, Allister and Bea will have a "shared" gym, meaning that depending on which version you buy, you will fight a different leader</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-cyan btn-block" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+  <!--   Card Deck -->
+  
+  <div id="starters" class="container-fluid p-3 bg-light-red">
+    <h1 class="font-weight-bold color-dark">Starters of Galar</h1>
+    <div class="py-1 bg-dark"></div>   
+  <div class="py-3"></div>
+    
+  <div class="card-deck">
+    
+    <div class="card" data-aos="flip-left"
+  data-aos-offset="200"
+  data-aos-delay="50"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in"
+  data-aos-mirror="false"
+  data-aos-once="true"
+  data-aos-anchor-placement="top-bottom">
+      <img class="card-img p-1" src="https://swordshield.pokemon.com/assets/img/articles/pokemon_galar_grookey_hover.png">
+      <div class="card-body">
+     <h3 class="font-weight-bold">Grookey</h3>
+     <h6 class="font-weight-normal">Read more on the Grass-type sarter! Grookey!</h6>
+     <div class="py-3">
+     </div>
+     <a class="btn btn-red text-white btn-block" href="https://bulbapedia.bulbagarden.net/wiki/Grookey_(Pok%C3%A9mon)" target="_blank">Grookey!</a>
+      </div>
+    </div>
+        
+    <div class="card" data-aos="flip-left"
+  data-aos-offset="200"
+  data-aos-delay="250"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in"
+  data-aos-mirror="false"
+  data-aos-once="true"
+  data-aos-anchor-placement="top-bottom">
+      <img class="card-img p-1" src="https://swordshield.pokemon.com/assets/img/articles/pokemon_galar_scorbunny_hover.png">
+      <div class="card-body">
+     <h3 class="font-weight-bold">Scorbunny</h3>
+     <h6 class="font-weight-normal">Read more on the Fire-type sarter! Scorbunny!</h6>
+     <div class="py-3">
+     </div>
+     <a class="btn btn-red text-white btn-block" href="https://bulbapedia.bulbagarden.net/wiki/Scorbunny_(Pok%C3%A9mon)" target="_blank">Scorbunny!!</a>
+      </div>
+    </div>
+        
+    <div class="card" data-aos="flip-left"
+  data-aos-offset="200"
+  data-aos-delay="450"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in"
+  data-aos-mirror="false"
+  data-aos-once="true"
+  data-aos-anchor-placement="top-bottom">
+      <img class="card-img p-1" src="https://swordshield.pokemon.com/assets/img/articles/pokemon_galar_sobble_hover.png">
+      <div class="card-body">
+     <h3 class="font-weight-bold">Sobble</h3>
+     <h6 class="font-weight-normal">Read more on the Water-type sarter! Sobble!</h6>
+     <div class="py-3">
+     </div>
+     <a class="btn btn-red text-white btn-block" href="https://bulbapedia.bulbagarden.net/wiki/Sobble_(Pok%C3%A9mon)" target="_blank">Sobble!</a>
+      </div>
+    </div>
+        
+    </div>
+    </div>
+    
+  
+<!--   First Carosel -->
+ 
+
+ 
+    
+  
+  
+
+    <footer class="bg-dark text-center">
+  <p class="text-light">
+  TeamEevee&copy; 2019
+      </p>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      
+      AOS.init();
+    </script>
+       <script> 
+       $(function () {
+  $('[data-toggle="popover"]').popover()
+})</script>
+  <script>$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+  </script>
+  </body>
+
+</html>
