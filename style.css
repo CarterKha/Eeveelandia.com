@@ -1,0 +1,57 @@
+.bg-cyan {
+  background-color:#87d3f8;
+}
+
+.bg-light-red {
+  background-color:#f97c7a;
+}
+
+.bg-red {
+  background-color:#e70009
+}
+
+
+.btn-cyan {
+  background-color:#87d3f8;
+}
+.btn-cyan:hover {
+  background-color:#00bfff;
+  cursor: pointer;
+}
+
+
+
+.btn-red {
+  background-color:#ee1515    
+}
+
+.btn-red:hover {
+  background-color:#f97c7a; 
+    cursor :pointer;
+}
+
+
+
+.btn-blue {
+  background-color:	#009fff;
+}
+.btn-blue:hover {
+  background-color: #62c4ff;
+    cursor:pointer:pointer;
+}
+
+
+
+.color-cyan {
+  color:#87d3f8
+}
+
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
